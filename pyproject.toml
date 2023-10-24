@@ -133,6 +133,7 @@ huggingface_hub = { version = "^0.17.3", optional = true }
 pymilvus = { version = "2.3.1", optional = true }
 google-cloud-aiplatform = { version = "^1.26.1", optional = true }
 replicate = { version = "^0.15.4", optional = true }
+<<<<<<< HEAD
 schema = "^0.7.5"
 psycopg = { version = "^3.1.12", optional = true }
 psycopg-binary = { version = "^3.1.12", optional = true }
@@ -146,6 +147,11 @@ newspaper3k = { version = "^0.2.8", optional = true }
 listparser = { version = "^0.19", optional = true }
 google-generativeai = { version = "^0.3.0", optional = true }
 modal = { version = "^0.56.4329", optional = true }
+=======
+jq = { version=">=1.6.0", optional = true}
+deeplake = { version = "^3.8.2", optional = true }
+
+>>>>>>> 16faeb5 (Added deeplake support)
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
@@ -212,6 +218,8 @@ rss_feed = [
 ]
 google = ["google-generativeai"]
 modal = ["modal"]
+deeplake = ["deeplake"]
+
 
 [tool.poetry.group.docs.dependencies]
 
