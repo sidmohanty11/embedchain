@@ -80,6 +80,7 @@ class VectorDBFactory:
         "qdrant": "embedchain.vectordb.qdrant.QdrantDB",
         "weaviate": "embedchain.vectordb.weaviate.WeaviateDB",
         "zilliz": "embedchain.vectordb.zilliz.ZillizVectorDB",
+        "deeplake": "embedchain.vectordb.deeplake.DeeplakeDB",
     }
     provider_to_config_class = {
         "chroma": "embedchain.config.vectordb.chroma.ChromaDbConfig",
@@ -89,6 +90,7 @@ class VectorDBFactory:
         "qdrant": "embedchain.config.vectordb.qdrant.QdrantDBConfig",
         "weaviate": "embedchain.config.vectordb.weaviate.WeaviateDBConfig",
         "zilliz": "embedchain.config.vectordb.zilliz.ZillizDBConfig",
+        "deeplake": "embedchain.config.vectordb.deeplake.DeeplakeDBConfig",
     }
 
     @classmethod
