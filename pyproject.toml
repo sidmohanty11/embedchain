@@ -18,8 +18,8 @@ packages = [
 ]
 
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
 
 [tool.ruff]
 select = ["E", "F"]
