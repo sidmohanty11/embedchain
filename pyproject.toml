@@ -13,6 +13,9 @@ exclude = [
     "configs",
     "notebooks"
 ]
+packages = [
+    { include = "embedchain" },
+]
 
 [build-system]
 requires = ["setuptools", "wheel"]
