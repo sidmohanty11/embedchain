@@ -206,6 +206,3 @@ rss_feed = ["feedparser", "listparser", "newspaper3k"]
 [tool.poetry.group.docs.dependencies]
 
 [tool.poetry.scripts]
-
-[tool.setuptools]
-py-modules = ["embedchain"]
